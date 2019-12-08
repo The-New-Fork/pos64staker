@@ -26,15 +26,7 @@ If you have any questions or need help getting started, please ask the [#kmd-lab
 ### Dependencies
 
 ```
-sudo apt-get install python3 libgnutls28-dev libssl-dev libcurl4-openssl-dev
-
-sudo apt-get install python3-pip
-
-pip3 install setuptools
-
-pip3 install wheel
-
-pip3 install base58 slick-bitcoinrpc python-bitcoinlib
+sudo apt-get install libssl1.0.0 libssl-dev python3-pip
 ```
 
 ### Sign up
@@ -43,12 +35,9 @@ Fork pos64staker
 
 Clone your fork
 
-```git checkout pos64test```
+```git checkout pos64test
 
-Copy komodod to ~/pos64staker/komodod
-
-```
-entercomp.py
+python3 entercomp.py
 
 git add participants.json
 
